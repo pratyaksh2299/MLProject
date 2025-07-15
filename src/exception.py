@@ -1,4 +1,5 @@
 import sys  # Imports the sys module which allows access to system-specific parameters and functions, like exception info.
+from src.logger import logging
 
 # This function helps generate a detailed error message with file name and line number
 def error_msg_details(error, error_details: sys):
